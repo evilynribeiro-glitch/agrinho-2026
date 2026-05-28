@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="accessibility-bar">
+        <button id="btn-theme" title="Alternar Modo Escuro/Claro">🌓 Alternar Tema</button>
+        <button id="btn-font-increase" title="Aumentar Letra">A+</button>
+        <button id="btn-font-decrease" title="Diminuir Letra">A-</button>
+        <button id="btn-tts" title="Ouvir Texto">🔊 Ler Página</button>
+    </div>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p class="subtitle">O equilíbrio perfeito entre a potência da produção e a preservação do meio ambiente no Brasil.</p>
+        </div>
+    </header>
+
+    <main class="container" id="main-content">
+        
+        <section class="intro-section">
+            <h2>O Cenário Atual do Agronegócio Brasileiro</h2>
+            <div class="grid-2-col">
+                <div class="text-block">
+                    <p>O Brasil se consolidou como um dos maiores players do agronegócio mundial. No entanto, o verdadeiro pioneirismo do setor hoje reside na capacidade de produzir mais utilizando menos recursos naturais, unindo tecnologia de ponta às práticas ancestrais de manejo da terra.</p>
+                    <p>O grande desafio do século XXI é manter o crescimento econômico e a segurança alimentar global enquanto blindamos nossos biomas e promovemos a restauração florestal.</p>
+                </div>
+                <div class="image-block">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad451?auto=format&fit=crop&q=80&w=400" alt="Plantação jovem com tecnologia de irrigação" class="small-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <h2>Estatísticas de Impacto (Clique para revelar)</h2>
+            <p class="instruction">Clique nos cartões abaixo para descobrir os dados reais da sustentabilidade no campo:</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card" onclick="revealStat(this)">
+                    <h3>Preservação em Propriedades Privadas</h3>
+                    <div class="stat-placeholder">Ver Dado 🔍</div>
+                    <div class="stat-result hidden"><strong>33%</strong> do território brasileiro é preservado por produtores rurais dentro de suas propriedades (Cadastro Ambiental Rural).</div>
+                </div>
+
+                <div class="stat-card" onclick="revealStat(this)">
+                    <h3>Tecnologia de Baixo Carbono</h3>
+                    <div class="stat-placeholder">Ver Dado 🔍</div>
+                    <div class="stat-result hidden">O Plano ABC liberou mais de <strong>R$ 50 Bilhões</strong> para técnicas de agricultura que reduzem a emissão de gases estufa.</div>
+                </div>
+
+                <div class="stat-card" onclick="revealStat(this)">
+                    <h3>Produção de Grãos vs. Área</h3>
+                    <div class="stat-placeholder">Ver Dado 🔍</div>
+                    <div class="stat-result hidden">Nos últimos 30 anos, a produção de grãos cresceu mais de <strong>400%</strong>, enquanto a área plantada cresceu apenas cerca de 100%.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pillars-section">
+            <h2>Pilares do Equilíbrio Ambiental</h2>
+            
+            <div class="grid-3-col">
+                <div class="pillar-card">
+                    <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&q=80&w=200" alt="Ícone rotação de culturas" class="mini-img">
+                    <h3>ILPF</h3>
+                    <p>A Integração Lavoura-Pecuária-Floresta otimiza o uso da terra, melhora o bem-estar animal e recupera pastagens degradadas no mesmo espaço.</p>
+                </div>
+                
+                <div class="pillar-card">
+                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=200" alt="Drone sobrevoando campo" class="mini-img">
+                    <h3>Agro 5.0</h3>
+                    <p>O uso de drones, sensores IoT e inteligência artificial permite aplicar água e defensivos agrícolas na medida exata, evitando desperdícios.</p>
+                </div>
+
+                <div class="pillar-card">
+                    <img src="https://images.unsplash.com/photo-1464241353293-0f4db07e7ef5?auto=format&fit=crop&q=80&w=200" alt="Energia solar na fazenda" class="mini-img">
+                    <h3>Bioinsumos</h3>
+                    <p>A substituição progressiva de fertilizantes químicos por defensores biológicos protege a microbiota do solo e os lençóis freáticos.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Agro Forte e Sustentável. Desenvolvido para o futuro do Brasil.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
